@@ -1,0 +1,35 @@
+:root{
+    --primary: #0699A6;
+    --secundary: #9e8c6c;
+    --background: #FFF;
+    --bg-header: #9e8c6c11;
+    --text-light: 
+    --text-dark:
+}
+
+.photo{
+    border-radius: 175px;
+    width: 350px;
+    height: 350px;
+}
+
+.photo img{
+    border-radius: 175px;
+    width: 350px;
+    height: 350px;
+}
+
+h1{
+    font-size: 126px;
+    font-weight: 900;
+    line-height: 112px;
+    margin: 0px 0px 30px 0px;
+}
+
+.skillset p{
+
+}
+
+.socialmedia{
+      display: flex;
+}
