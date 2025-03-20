@@ -1,35 +1,221 @@
 :root{
+    /*cores*/
     --primary: #0699A6;
     --secundary: #9e8c6c;
     --background: #FFF;
     --bg-header: #9e8c6c11;
-    --text-light: 
-    --text-dark:
+    --text-light: #333;
+    --text-dark: #fff;
+
+    /*font weght*/
+    --font-weight1: 700;
+    --font-weight2: 900;
+
+    /*font size*/
+    --font-size1: 126px;
+    --font-size2: 18px;
+    --font-size3: 20px;
+
+    /*font*/
+    --font-family1:"pt sans narrow", sans-serif;
+    --font-family2:"playfair display";
 }
 
-.photo{
-    border-radius: 175px;
-    width: 350px;
-    height: 350px;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background-color: var(--background);
+    color: var(--text-light);
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+header{
+    background-color: var(--secundary);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
 
 .photo img{
-    border-radius: 175px;
+    border-radius: 50px;
     width: 350px;
     height: 350px;
 }
 
-h1{
+.info-and-button{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.info{
+    text-align: left;
+}
+
+.info p{
+    color: var(--text-light);
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 326px;
+    height: 20px;
+}
+
+
+.info h1{
     font-size: 126px;
-    font-weight: 900;
-    line-height: 112px;
-    margin: 0px 0px 30px 0px;
+    color: #000;
+    width: 346px;
+    margin: auto;
+}
+
+.button{
+    background-color: var(--primary);
+    color: var(--text-dark);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.column3 .skillset ul{
+    font-family: var(--font-family1);
+    color: #000000;
 }
 
 .skillset p{
+    font-family: var(--font-family1);
+    color: #000000;
+}
+.column1 h2{
+    font-family: var(--font-family1);
+    color: var(--secundary);
+}
 
+.column2 ul{
+    text-decoration: none;
+    font-family: var(--font-family1);
+    color: #000000;
+}
+
+.skillset ul{
+    padding: 0;
+}
+
+.skillset a{
+    font-family: var(--font-family1);
+    color: var(--primary);
+}
+
+
+.aboutme h2{
+    font-family: var(--font-family2);
+    color:#000000;
+}
+
+.rectangle{
+    padding: 5px;
+    max-width: 71px;
+    background-color: var(--primary);
+    margin-top: 80px;
+    margin-bottom: 66px;
+}
+
+.sub-title{
+    display: flex;
+    justify-content: space-between;
+}
+.experience h2{
+    font-family: var(--font-family2);
+    color:#000000;
+}
+
+.experience h3{
+    font-family: var(--font-family1);
+    color: var(--secundary);
+}
+
+.experience p{
+    font-family: var(--font-family1);
+    color:#000000;
+}
+
+.education h2{
+    font-family: var(--font-family2);
+    color:#000000;
+}
+
+.education p{
+    font-family: var(--font-family1);
+    color: var(--secundary);
+}
+
+.data{
+    font-family: var(--font-family1);
+    color: #000000;
+}
+
+.footer{
+    width: 100%;
+    background-color:var(--secundary);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box-footer{
+    width: min-content;
 }
 
 .socialmedia{
-      display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h2{
+    font-family: var(--font-family2);
+    color:#000000;
+}
+
+.footer p{
+    font-family: var(--font-family2);
+    color: #0699A6;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.content-wrapper{
+    width: 350px;
+}
+
+.description{
+    width: 635px;
+}
+.skillset{
+    text-decoration: none;
+    color: #0699A6;
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+@media screen (max-width: 375px) {
+    
 }
