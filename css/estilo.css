@@ -37,7 +37,7 @@ body{
 }
 
 header{
-    background-color: var(--secundary);
+    background-color:  rgba(158, 140, 108, 0.1);
     padding: 50px 0;
     text-align: center;
 }
@@ -169,7 +169,7 @@ header{
 
 .footer{
     width: 100%;
-    background-color:var(--secundary);
+    background-color:  rgba(158, 140, 108, 0.1);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -177,6 +177,12 @@ header{
 
 .box-footer{
     width: min-content;
+    font-family: var(--font-family2);
+}
+
+a{
+    color: var(--primary);
+    text-decoration: none;
 }
 
 .socialmedia{
